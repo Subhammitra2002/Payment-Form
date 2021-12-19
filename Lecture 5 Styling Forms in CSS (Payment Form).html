@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 3 (Payment Form)</title>
+    <link rel="stylesheet" href="PaymentForm.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="main_heading">Payment Form</h1>
+    <hr>
+    <form action="">
+        <h1>Contact Information</h1>
+        <div>Name: </div>
+            <input class="input-css" type="text" name="Name" id="Name" required placeholder="Your Name"> 
+        <fieldset class="Gender" required>
+            <legend>Gender</legend>
+            <p>
+                Male <input type="radio" name="Gender" id="Male" required>
+                Female <input type="radio" name="Gender" id="Female" required>
+            </p>
+        </fieldset>
+        <div>Address: </div>
+        <textarea class="input-css" name="Address" id="Address" cols="50" rows="7" placeholder="Enter your Address"></textarea>
+        <div>Email: </div>
+        <input class="input-css" type="email" name="Email" id="Email" required placeholder="name@gmail.com">
+        <div>Pincode: </div>
+        <input class="input-css" type="number" name="Pincode" id="Pincode" placeholder="123456">
+        <br>
+        <br>
+        <hr>
+        <h1>Payment Information</h1>
+        <div>Card Type: </div>
+            <select class="input-css" name="card_type" id="card_type" required>
+                <option value="">--Select a Card Type--</option>
+                <option value="Visa">Visa</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Mastercard">Mastercard</option>
+            </select>
+        
+        <div>Card Number: </div>
+            <input class="input-css" type="number" name="card_number" id="card_number" required placeholder="1111-2222-3333-4444">
+        <div>Expiry: </div>
+            <input class="input-css" type="date" name="exp_date" id="exp_date" required>
+        <div>CVV: </div>
+        <input class="input-css" type="password" name="cvv" id="cvv" required placeholder="123">
+        <br>
+        <br>
+        <input class="PayNow"  type="submit" value="Pay Now">
+        <input class="Reset" type="reset" value="Reset">
+    </form>
+</div>
+</body>
+</html>
