@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.input-css{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Gender{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.PayNow{
+    width: 49%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4daea1;
+    color: white;
+    cursor: pointer;
+}
+
+.Reset{
+    width: 49%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #4daea1;
+    color: white;
+    cursor: pointer;
+}
+
+.PayNow:hover{
+    background-color: #4caf84;
+}
+
+.Reset:hover{
+    background-color: #4caf84;
+}
+
+.main_heading{
+    text-align: center;
+}
+
